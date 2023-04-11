@@ -1,0 +1,78 @@
+cup-mode:
+  enabled: false
+  day: ""
+  month: ""
+
+  cupcoins-system:
+    bed-destroy: 10
+    kill: 5
+    final-kill: 10
+    wins: 15
+    second-of-win: 5
+  
+  settings:
+    max-games: 12
+  
+  database:
+    #db system
+  
+  scoreboard:
+    waiting:
+      - "&a&lBedWars"
+      - "&7%date% &7%server%"
+      - ""
+      - "&7Mappa: %map%"
+      - ""
+      - "&fGiocatori: %on%/%max%" #player in lobby and player max in this arena
+      - ""
+      - "&fIn attesa"
+      - ""
+      - "&fMode: CUP MODE"
+      - "&fVersione: 1.0.0 Beta"
+      - ""
+      - "&eserverip"   
+    starting:
+      - "&a&lBedWars"
+      - "&7%date% &7%server%"
+      - ""
+      - "&7Mappa: %map%"
+      - ""
+      - "&fGiocatori: %on%/%max%" #player in lobby and player max in this arena
+      - ""
+      - "&fInizio in: %time%"
+      - ""
+      - "&fMode: CUP MODE"
+      - "&fVersione: 1.0.0 Beta"
+      - ""
+      - "&eserverip"
+  
+  messases:
+    games: "games %used% / %max%"
+    info:
+    - ""
+  
+
+  commands:
+    
+    cup_info:
+      enabled: true
+      message:
+        - ""
+
+    cup_invite:
+    enabled: true
+      message: ""
+
+    cup_leave:
+      enabled: true    
+      message: ""
+    
+    cup_disband:
+      enabled: true    
+      message: ""
+    
+    cup_top:
+      enabled: true    
+      message:
+      - ""
+    

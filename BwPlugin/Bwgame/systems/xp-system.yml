@@ -1,0 +1,14 @@
+xp-system:
+  reward-per-minute: "&6+%xp% (Time of play)"
+  reward-game-win: "&6+%xp% (Victory)"
+  reward-per-teammate: "&6+%xp% (Supporto team)"
+  reward-bed-destroyed: "&6+%xp% (Bed destroyed)"
+  reward-regular-kill: "&6+%xp% (Kill)"
+  reward-final-kill: "&6+%xp% (FinalKill)"
+  xp-rewards:
+    per-minute: 20
+    per-teammate: 5
+    game-win: 100
+    bed-destroyed: 15
+    regular-kill: 5
+    final-kill: 15  

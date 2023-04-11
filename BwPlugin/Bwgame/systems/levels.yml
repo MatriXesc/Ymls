@@ -1,0 +1,49 @@
+levels:
+  '1':
+    name: '&7[{number}✩] '
+    rankup-cost: 1000
+  '2':
+    name: '&7[{number}✩] '
+    rankup-cost: 2000
+  '3':
+    name: '&7[{number}✩] '
+    rankup-cost: 3000
+  '4':
+    name: '&7[{number}✩] '
+    rankup-cost: 4000
+  5-99:
+    name: '&7[{number}✩] '
+    rankup-cost: 5000
+  '100':
+    name: '&f[{number}✩] '
+    rankup-cost: 10000
+  101-199:
+    name: '&f[{number}✩] '
+    rankup-cost: 10000
+  '200':
+    name: '&a[{number}✩] '
+    rankup-cost: 20000
+  201-299:
+    name: '&a[{number}✩] '
+    rankup-cost: 20000
+  '300':
+    name: '&b[{number}✩] '
+    rankup-cost: 30000
+  301-399:
+    name: '&b[{number}✩] '
+    rankup-cost: 30000
+  '400':
+    name: '&6[{number}✩] '
+    rankup-cost: 40000
+  401-499:
+    name: '&6[{number}✩] '
+    rankup-cost: 40000
+  '500':
+    name: '&c[{number}✩] '
+    rankup-cost: 5000 
+  501-999:
+    name: '&c[{number}✩] '
+    rankup-cost: 5000
+  '1000':
+    name: '&c[{number}✩] '
+    rankup-cost: 10000

@@ -1,0 +1,14 @@
+money-system:
+  reward-per-teammate: "&6+%money% Money (Time of play)"
+  reward-game-win: "&6+%money% Money (Win)"
+  reward-per-minute: "&6+%money% Money (Support team)"
+  reward-bed-destroyed: "&6+%money% Money (Bed destroyed)"
+  reward-final-kill: "&6+%money% Money (Final Kill)"
+  reward-regular-kill: "&6+%money% Money (Kill)"
+  money-rewards:
+    per-minute: 5
+    per-teammate: 30
+    game-win: 100
+    bed-destroyed: 50
+    final-kill: 50
+    regular-kill: 10

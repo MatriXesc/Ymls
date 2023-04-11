@@ -1,0 +1,12 @@
+fireball-jump:
+  explosion-size: 5
+  speed-multiplier: 10
+  make-fire: false
+  knockback:
+    horizontal: 0.3
+    vertical: 0.1
+  cooldown: 0.5
+  damage:
+    self: 2.0
+    enemy: 2.0
+    teammates: 0.0

@@ -1,0 +1,199 @@
+private-games:
+
+  general-settings:
+    group: ""
+    they-do-not-affect-the-stats: true #this allow who play a private game if he wins or loses etc he is not accounted for in the stats
+    permissions:
+      vip_permission_private_game: bwgame.private.create.10 #10 are the private games that Vip start daily 
+      master_permission_private_game: bwgame.private.create.15 #15 are the private games that Master start daily
+      king_permission_private_game: bwgame.private.create.ultimited #1000 are the private games that King start daily
+    player-choose-map-in-server-game: true
+
+  message:
+    choose-map: "if you want to choose a map in the private game server use /bwp map"
+    arena-changes:
+      - ""
+
+  choose-map:
+    size: 27
+    modules:
+      solo:
+        right-click-command: "bw guimap Solo"
+      duo:
+        right-click-command: "bw guimap Duo"
+      trio:
+        right-click-command: "bw guimap Trio"
+      mega:
+        right-click-command: "bw guimap Mega"        
+
+
+  settings-gui:
+    size: 54
+    modules:
+      diable: 
+        pos: 11
+        material: BARRIER
+          sub-gui:
+            size: 9
+            obsidian: true
+              material: OBSIDIAN_BLOCK
+              lore: "&eDisattiva blocchi di ossidiana"
+              pos: 1
+            bow: true
+              material: BOW
+              lore: "&eDisattiva gli archi"
+              pos: 2
+            iron-golem: true
+              material: EGG
+              lore: "&eDisattiva gli iron-golem"
+              pos: 3
+            silver-fish: true
+              material: EGG
+              lore: "&eDisattiva i silver fish"
+              pos: 4
+            beds: true
+              material: BED
+              lore: "&eDisattiva i letti (Tutti i player sono final kill)"
+              pos: 5
+            fireball: true
+              material: FIREBALL
+              lore: "&eDisattiva le fireball"
+              pos: 6
+
+      player-per-team:
+        material: HEAD
+          pos: 13
+          sub-gui:
+            size: 9
+            one: true
+              material: CLAY
+              lore: "&esetta i player per team a 1"
+              data: 5
+              pos: 0
+            two: true
+              material: CLAY
+              lore: "&esetta i player per team a 2"
+              data: 1
+            three: true
+              material: CLAY
+              lore: "&esetta i player per team a 3"
+              data: 5
+              pos: 2
+            four: true
+              material: CLAY
+              lore: "&esetta i player per team a 4"
+              data: 5
+              pos: 3
+            six: true
+              material: CLAY
+              lore: "&esetta i player per team a 6"
+              data: 5
+              pos: 4                        
+            eight: true
+              material: CLAY
+              lore: "&esetta i player per team a 8"
+              data: 5
+              pos: 5
+            ten: true
+              material: CLAY
+              lore: "&esetta i player per team a 10"
+              data: 5
+              pos: 6
+            twelve: true
+              material: CLAY
+              lore: "&esetta i player per team a 12"
+              data: 5
+              pos: 7
+            fourteen: true
+              material: CLAY
+              lore: "&esetta i player per team a 14"
+              data: 5
+              pos: 8                        
+            sixteen: true
+              material: CLAY
+              lore: "&esetta i player per team a 16"
+              data: 5  
+              pos: 9
+
+      onehit-onekilk:
+        enabled: true
+        pos: 15
+        lore: "Una hit una kill" 
+
+      health-line:
+        enabled: true
+        pos: 17
+        sub-gui:
+          size: 9
+            one: true
+              material: CLAY
+              lore:
+                - "Lascia la striscia di cuori normale"
+              data: 5
+              pos: 4
+            two: true
+              material: CLAY
+              lore:
+                - "Metti due striscie di cuori"
+              data: 5
+              pos: 5
+            three: true
+              material: CLAY
+              lore:
+                - "Mettri tre stricie di cuori"
+              data: 5
+              pos: 6
+
+      op-funace:
+        enabled: true
+        pos: 23
+        lore: "&cAttiva le fornaci op"
+        settings: 
+          every-ms-spawn:
+            iron: 4
+            gold: 2
+            emerald: 1
+        
+      max-team-upgrade:
+        enabled: true
+        pos: 25
+        lore: "&cTutti i player avranno gli upgrade al massimo"
+      
+      hit-system: 
+        enabled: true
+        pos: 27
+        lore: 
+          - "&cAttiva o disattiva le hit combo"
+          - "&cClick sinistro per hit normali"
+          - "&cClick destro per hit combo"
+      
+      jump-boost-permanent: 
+        enabled: true
+        pos: 29
+        lore:
+          - "&cJump boost permanente"
+      
+      no-diamond:
+        enabled: true
+        pos: 32
+        lore:
+          - "&cNo diamonds"
+      
+      no-emerald:
+        enabled: true
+        pos: 35
+        lore:
+          - "&cNo emeralds"
+
+      ranked-mode:
+        broadcast-message: "&cModalita ranked attivata"
+        enabled: true
+        force-choose-squad-map: true
+        settings:
+          player-choose-the-system: true
+      
+  
+
+
+
+  

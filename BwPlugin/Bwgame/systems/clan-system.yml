@@ -1,0 +1,22 @@
+clans:
+  mysql:
+    #connection to mysql
+  
+  commands:
+    clan_help:
+      message:
+        - ""
+        - ""
+    clan_invite:
+      message: ""
+    clan_create:
+      message: ""
+    clean_promote:
+      message: ""
+    clan_demote:
+      message: ""
+    clan_leader:
+      message: ""
+    clan_info:
+      message:
+        - ""

@@ -1,0 +1,19 @@
+lobby-arena-items:
+  profile:
+    slot: 0
+    material: HEAD #this is the head of the player
+    lore:
+    - "&cYour profile"
+    command: "" #right click command
+  leaderboard:
+    slot: 1
+    material: FIREBALL
+    lore:
+    - "&cLeaderboard"
+    command: "" #right click command
+  bwleave:
+    slot: 7
+    material: BED
+    lore:
+    - "&cbw leave"
+    command: "" #right click command  

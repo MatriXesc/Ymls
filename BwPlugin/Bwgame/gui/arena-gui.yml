@@ -1,0 +1,66 @@
+admin-gui:
+
+  arenagui:
+    enabled: true
+    types:
+      solo: 
+        normal:
+          enabled: true #normal gui for a normal player
+        vip: 
+          command: "bw gui Solo"
+          enabled: true
+          waiting:
+            material: STAINED_GLASS_PANE
+            data: 5
+        starting:
+          material: STAINED_GLASS_PANE
+          data: 4
+      duo:
+        normal:
+          enabled: true #normal gui for a normal player
+        vip: 
+          command: "bw gui Duo"
+          enabled: true
+          waiting:
+            material: STAINED_GLASS_PANE
+            data: 5
+          starting:
+            material: STAINED_GLASS_PANE
+            data: 4
+      trio:
+        normal:
+          enabled: true #normal gui for a normal player
+        vip: 
+          command: "bw gui Duo"
+          enabled: true
+          waiting:
+            material: STAINED_GLASS_PANE
+            data: 5
+          starting:
+            material: STAINED_GLASS_PANE
+            data: 4 
+      quadro:
+        normal:
+          enabled: true #normal gui for a normal player
+        vip: 
+          command: "bw gui Duo"
+          enabled: true
+          waiting:
+            material: STAINED_GLASS_PANE
+            data: 5
+          starting:
+            material: STAINED_GLASS_PANE
+            data: 4
+      1v1:
+        command: "bw gui 1v1"
+        enabled: true
+        waiting:
+          material: STAINED_GLASS_PANE
+          data: 5
+        starting:
+          material: STAINED_GLASS_PANE
+          data: 4 
+  
+    
+    
+      

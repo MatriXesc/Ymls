@@ -1,0 +1,9 @@
+chat-format:
+  shout: "&7[SHOUT] %player%: &7%message%"
+  normal: "&7%player%&7: &7%message%"  
+  vip: "&aVIP %player%&7: &f%message%" #permission required
+    permission: bw.vip.chat
+  master: "&eMASTER %player%&7: &f%message%" #permission required
+    permission: bw.master.chat
+  king: "&6KING %player%&7: &f%message% " #permission required
+    permission: bw.king.chat

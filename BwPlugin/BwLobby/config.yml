@@ -1,0 +1,174 @@
+guis:
+  arenagui:
+    name: "Scegli la modalita"
+    enabled: true
+    types:
+      solo: 
+        normal:
+          enabled: true #normal gui for a normal player
+        vip: 
+          command: "bw gui Solo"
+          enabled: true
+          waiting:
+            material: STAINED_GLASS_PANE
+            data: 5
+        starting:
+          material: STAINED_GLASS_PANE
+          data: 4
+      duo:
+        normal:
+          enabled: true #normal gui for a normal player
+        vip: 
+          command: "bw gui Duo"
+          enabled: true
+          waiting:
+            material: STAINED_GLASS_PANE
+            data: 5
+          starting:
+            material: STAINED_GLASS_PANE
+            data: 4
+      trio:
+        normal:
+          enabled: true #normal gui for a normal player
+        vip: 
+          command: "bw gui Duo"
+          enabled: true
+          waiting:
+            material: STAINED_GLASS_PANE
+            data: 5
+          starting:
+            material: STAINED_GLASS_PANE
+            data: 4 
+      quadro:
+        normal:
+          enabled: true #normal gui for a normal player
+        vip: 
+          command: "bw gui Duo"
+          enabled: true
+          waiting:
+            material: STAINED_GLASS_PANE
+            data: 5
+          starting:
+            material: STAINED_GLASS_PANE
+            data: 4
+      1v1:
+        command: "bw gui 1v1"
+        enabled: true
+        waiting:
+          material: STAINED_GLASS_PANE
+          data: 5
+        starting:
+          material: STAINED_GLASS_PANE
+          data: 4 
+  
+  admin-gui:
+    enabled: true
+    settings:
+      name: "Gestisci i server"
+      size: 54
+      next-page:
+        pos: 54 
+        material: ARROW
+        lore:
+          - "&cProssima pagina"
+      back-page:
+        pos: 0
+        material: ARROW
+        lore:
+          - "Pagina precedente"
+      modules:
+        solo:
+          pos: 47
+          material: WOOL
+          data: 0
+          lore:
+            - "Gestisti partite solo"
+          left-click: "bw admingui Solo"
+        duo:
+          pos: 48
+          material: WOOL
+          data: 0
+          lore:
+            - "Gestisti partite duo"
+          left-click: "bw admingui Duo" 
+        trio:
+          pos: 49
+          material: WOOL
+          data: 0
+          lore:
+            - "Gestisti partite trio"
+          left-click: "bw admingui Trio"  
+        solo:
+          pos: 50
+          material: WOOL
+          data: 0
+          lore:
+            - "Gestisti partite quadro"
+          left-click: "bw admingui Quadro" 
+        solo:
+          pos: 51
+          material: WOOL
+          data: 0
+          lore:
+            - "Gestisti partite privati"
+          left-click: "bw admingui Privati"
+
+
+    general-settings:
+      right-click: "restart"
+      left-click: "bw join <Arena>"
+
+scoreboard:
+  lobby:
+    - "SERVER"
+    - ""
+    - "&cNome: %nickname%"
+    - "&cLivello: %level%"
+    - ""
+    - "Online: %online%"
+    - "Server: %server%"
+    - ""
+    - "serverip"
+  
+  cup:
+    lobby:
+      - "SERVER CUP"
+      - ""
+      - "&cNome: %nickname%"
+      - "Collega: %colleague%"
+      - ""
+      - "&cLivello: %level%"
+      - "&cPartite: %max%"
+      - ""
+      - "Online: %online%"
+      - ""
+      - "serverip"
+
+    queue:
+      - "SERVER CUP"
+      - ""
+      - "&cNome: %nickname%"
+      - "Collega: %colleague%"
+      - ""
+      - "&cLivello: %level%"
+      - "&cPartite: %used% / %max%"
+      - "&cCoins: %coins%"
+      - ""
+      - "Online: %online%"
+      - ""
+      - "serverip"
+  
+  admin:
+    lobby:
+      - "SERVER"
+      - ""
+      - "&cNome: %nickname%"
+      - "&cLivello: %level%"
+      - ""
+      - "Online: %online%"
+      - "Server: %server%"
+      - ""
+      - "Arene: %arene_used% / %max_arene%"
+      - ""
+      - "serverip"
+

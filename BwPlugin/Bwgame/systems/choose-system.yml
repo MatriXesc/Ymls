@@ -1,0 +1,33 @@
+choose-system:
+  enabled: true
+  
+  settings:
+    right-click-on-npc: true
+    permission: "bw.choosemapsystem"
+    no-pex-message: "&cNo pex"
+    player-can-choose-the-map: true
+      how-much-a-day: 3
+  
+  settings-gui:
+    size: 54
+    modules:
+      choose:
+        material: CARTELLO
+        lore: 
+          - "Scegli una mappa se sei vip"
+          - "Se non sei vip puoi sceglierla 3 volte al giorno"
+        pos: 14
+
+      play: 
+        material: BED
+        lore:
+          - "Gioca le bedwars in modalità: %mode%"
+        pos: 12
+
+      rejoin: 
+        material: ENDERPEARL
+        lore:
+          - "Rientra nel game se non è finito"
+        pos: 54
+      
+  

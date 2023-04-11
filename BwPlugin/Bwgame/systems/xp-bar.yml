@@ -1,0 +1,23 @@
+xp_bar:
+  level:
+    enabled: true
+    worlds:
+    - all
+    update_events:
+      join: true
+      kill_death: true
+      rejoin: true
+      respawn: true
+      levelup_xpgain: true
+      levelup_xpgain_fireworks: true
+  experience:
+    enabled: true
+    worlds:
+    - all
+    update_events:
+      join: true
+      kill_death: true
+      rejoin: true
+      respawn: true
+      levelup_xpgain: true
+#CREDITS Bw1058 Xp_bar

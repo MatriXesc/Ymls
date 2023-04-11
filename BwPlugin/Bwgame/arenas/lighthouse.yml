@@ -1,0 +1,38 @@
+group: Solo
+display-name: LightHouse
+minPlayers: 6
+maxInTeam: 1
+allowSpectate: true
+spawn-protection: 5
+shop-protection: 1
+upgrades-protection: 1
+generator-protection: 1
+island-radius: 17
+worldBorder: 300
+y-kill-height: -1
+max-build-y: 180
+game-rules:
+- doDaylightCycle:false
+- announceAdvancements:false
+- doInsomnia:false
+- doImmediateRespawn:true
+- doWeatherCycle:false
+- doFireTick:false
+waiting:
+  Loc: 0.5248428921398973,118.0,0.36521670674958984,0.44982728362083435,1.349981427192688
+  Pos1: 16.347177131856192,129.5123750992114,15.173774468522215,-227.70028686523438,38.249794006347656
+  Pos2: -16.037709367932298,105.52182198591248,-12.937837952466136,-51.89996337890625,-10.950249671936035
+spectator-loc: 0.4969276235358121,115.20000004768372,0.5425787845381534,-0.453460693359375,90.0
+Team:
+  Rosso:
+    Color: RED #color of the wool, color of the prefix team in chat, color of the basic armor (leader)
+    Spawn: -39.50404209783358,63.0,-86.57410771242238,-359.94891357421875,0.8999877572059631 #the spawn
+    Bed: -40.0,63.0,-78.0,0.0,0.0 #positon of the bed
+    Iron:
+    - -39.524383303837176,62.5,-90.0041982919296,-1.200164794921875,0.9000117778778076 #positon of iron base generation
+    Gold:
+    - -39.524383303837176,62.5,-90.0041982919296,-1.200164794921875,0.9000117778778076 #position of gold base generator
+    Emerald:
+    - -39.524383303837176,62.5,-90.0041982919296,-1.200164794921875,0.9000117778778076 #positon of emerald base generator
+    Shop: -34.30526273616124,63.0,-87.15341300308454,-270.0002136230469,0.29998964071273804 #positon of shopt npc
+    Upgrade: -44.69999998807907,63.0,-87.01843917195322,-89.25082397460938,0.4499898850917816 #positon of upgrade npc

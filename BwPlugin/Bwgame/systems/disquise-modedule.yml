@@ -1,0 +1,16 @@
+disguise:
+  enabled: true
+  settings:
+    random-skin: true
+    random-name: true
+    nickname-radius-min: 5
+    nickname-radius-max: 9
+    use-numer: true
+
+  commands:
+    disuige:
+      enabled: true
+      messsage: ""
+    disguise_gui:
+      enabled: true
+      message: "" 

@@ -1,0 +1,36 @@
+party-system:
+  partyowner-choose-map-and-mod: true #The owner of the party choose the modality of the game and choose map if he is Vip, Master or King
+  commands:
+    p: 
+      enabled: true
+      msg: "&cparty help msg List<String>"
+    p_info:
+      enabled: true
+      msg: "&cSee the player in the party"
+    p_invite:
+      enabled: true
+      msg: "&cInvite a player in the party"
+    p_accept:
+      enabled: true
+      msg: "&cAccept to join in a party)"
+    p_chat:
+      enabled: true
+      msg: "&cActive the party chat (only party member can see the chat)"
+    p_kick:
+      enabled: true
+      msg: "&cKick a player from the party"
+    p_promote:
+      msg: "&cPromote a player Owner of the party"
+    p_leave:
+      msg: "&cLeave from the party"
+      
+  messages:
+    party-invite: "&bYou invite the player: %target% in your party"
+    target-invite: "&bYou are invited from %player% in his parts party (click here to accpet)"
+    click-accept-command: "p accept"
+    party-chat: "&bParty %member%: %message%"
+    party-info: 
+    - "%players_party% List<String>"
+    party-leave: "&bYou left the party"
+    party-kick: "&bYou kicked a player from the party"
+    party-promote: "&bYou promote the player: %target% owner of you party"
