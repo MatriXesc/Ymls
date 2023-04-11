@@ -60,7 +60,33 @@ admin-gui:
         starting:
           material: STAINED_GLASS_PANE
           data: 4 
-  
+  admin-gui:
+    enabled: true
+    permission: "bw.admin.gui"
+    size: 54
+    use-slots: #list of slots to use
+     sub-gui:
+       solo:
+         size: 54
+         open-on-admin-gui-slot: 44
+         command-on-click: "bw gui Solo"       
+       duo:
+         size: 54
+         open-on-admin-gui-slot: 43
+         command-on-click: "bw gui Duo"
+       trio:
+         size: 54
+         open-on-admin-gui-slot: 43
+         command-on-click: "bw gui Trio"            
+       suad:
+         size: 54
+         open-on-admin-gui-slot: 42
+         command-on-click: "bw gui Squad"
+       private:
+         size: 54
+         open-on-admin-gui-slot: 41
+         command-on-click: "bw gui Privati"  
     
-    
-      
+    general-settings:
+      left-click-on-block: "bw join <Arena>"
+      right-click-on-block: "restart"
